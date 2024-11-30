@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #d22b2b;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgb(139, 210, 131);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(119, 233, 228, 0.1);
+        }
+        .skills, .education, .family, .review {
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .image-container img {
+            width: 48%;
+            border-radius: 8px;
+        }
+        .review-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .review-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Portfolio</h1>
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <p>CAN COOK</p>
+            <p>MID FACE</p>
+            <p>LOST A QUIZ COMPITITION (3RD GRADE QUIZ)</p>
+            <p>GHAR KA RAM BETA</p>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <p>Bachelor's Degree in GIVING GYAN TO OTHERS</p>
+        </div>
+
+        <div class="family">
+            <h2>My Family</h2>
+            <div class="image-container">
+                <div>
+                    <h3>My Brothers</h3>
+                    <img src="MANISH.jpg" alt="MANISH">
+                    <img src="NITISH.jpg" alt="NITISH">
+                </div>
+                <div>
+                    <h3>My Sister</h3>
+                    <img src="SHIVANI.jpg" alt="SHIVANI">
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <h2>Leave a Review</h2>
+            <form class="review-form">
+                <textarea rows="4" placeholder="Write your review here..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
